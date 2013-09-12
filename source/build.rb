@@ -1,5 +1,5 @@
 
-compile_library 'DreamDisplayOSX' do
+compile_library 'DreamDisplayIOS' do
 	def source_files(environment)
 		FileList[root, 'Dream/**/*.{cpp,m,mm}']
 	end
